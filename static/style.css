@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'lato';
+    background-color: rgb(22, 93, 115);
+    height: 100vh;
+}
+
+#bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+h1 {
+    color: rgb(227, 149, 40);
+
+}
+.container {
+    min-height: 150vh;
+    background: url('./images/mountain.png');
+    background-size: contain;
+    width: 100%;
+    background-position-y: 100%;
+    background-repeat:no-repeat;
+    z-index: 20;
+
+}
